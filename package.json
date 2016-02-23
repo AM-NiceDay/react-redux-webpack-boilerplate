@@ -27,6 +27,11 @@
   "dependencies": {
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "react-router": "^2.0.0"
+    "react-redux": "^4.4.0",
+    "react-router": "^2.0.0",
+    "react-router-redux": "^4.0.0",
+    "redux": "^3.3.1",
+    "redux-effects": "^0.4.3",
+    "redux-effects-fetch": "^0.4.5"
   }
 }
