@@ -12,7 +12,8 @@ import reducers from './reducers';
 const store = createStore(reducers, applyMiddleware(
   effects,
   fetch,
-  routerMiddleware(browserHistory))
+  routerMiddleware(browserHistory)),
+  window.devToolsExtension ? window.devToolsExtension() : f => f
 );
 const history = syncHistoryWithStore(browserHistory, store);
 
